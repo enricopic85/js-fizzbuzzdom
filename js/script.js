@@ -24,9 +24,9 @@ Dato un container nel DOM, appendi un elemento html con il numero o la stringa c
 //     if (i % 3 ===0 && i % 5 === 0 ) {
 //         document.querySelector(".container").innerHTML +="<p>FizzBuzz</p> "
 //     } else if (i % 3 ===0) {
-//         document.querySelector(".container").innerHTML +="<p>Fizz</p> " // console.log("Fizz");
+//         document.querySelector(".container").innerHTML +="<p>Fizz</p> " 
 //     } else if (i % 5 === 0) {
-//         document.querySelector(".container").innerHTML +="<p>Buzz</p> " // console.log("Buzz");
+//         document.querySelector(".container").innerHTML +="<p>Buzz</p> " 
 //     } else{
 //         document.querySelector(".container").innerHTML +=`<p>${i}</p>` 
 //     }
