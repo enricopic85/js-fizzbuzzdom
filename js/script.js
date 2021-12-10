@@ -38,12 +38,12 @@ Prima di partire a scrivere codice poniamoci qualche domanda:
 Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qualcosa di particolare che possiamo usare? Come creare nuovi elementi html e appenderli al container?*/
 for(i=1;i<=100;i++){
     if (i % 3 ===0 && i % 5 === 0 ) {
-        document.querySelector(".container-box").innerHTML +='<div class="box-fizzBuzz"><p>fizzBuzz</p></div>';
+        document.querySelector(".container-box").innerHTML +='<div class="box box-fizzBuzz">fizzBuzz</div>';
     } else if (i % 3 ===0) {
-        document.querySelector(".container-box").innerHTML +=`<div class="box-fizz">fizz</div>`;  // console.log("Fizz");
+        document.querySelector(".container-box").innerHTML +=`<div class=" box box-fizz">fizz</div>`;  
     } else if (i % 5 === 0) {
-        document.querySelector(".container-box").innerHTML +=`<div class="box-buzz">buzz</div>`;  // console.log("Buzz");
+        document.querySelector(".container-box").innerHTML +=`<div class="box box-buzz">buzz</div>`;  
     } else{
-        document.querySelector(".container-box").innerHTML +=`<div class="box-empty">${i}</div>`; 
+        document.querySelector(".container-box").innerHTML +=`<div class="box box-empty">${i}</div>`; 
     }
-    }
+}
